@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>화이트데이 이벤트</title>
+<title>화해 신청</title>
 
 <style>
 * { box-sizing: border-box; }
@@ -21,7 +21,7 @@ body{
 
   background-image:
     linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)),
-    url("01.jpg");
+    url("01.jpeg");
   background-size:cover;
   background-position:center;
   background-repeat:no-repeat;
@@ -101,7 +101,8 @@ h1{
 <body>
   <div class="card">
     <h1>
-      ⚠️ 오류 발생: 우리 사이에 “서운함.exe”가 실행되었습니다.<br>
+      ⚠️ 오류 발생: 우리 사이에 “서운함.exe”가<br>
+      실행되었습니다.<br>
       👉 지금 바로 “화해하기” 버튼을 눌러주세요.
     </h1>
 
@@ -129,7 +130,7 @@ h1{
 
   yesBtn.addEventListener("click", () => {
     document.body.style.backgroundImage =
-      'linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("02.jpg")';
+      'linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("02.jpeg")';
     if (result) result.style.display = "block";
     createHearts();
   });
